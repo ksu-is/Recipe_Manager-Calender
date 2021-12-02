@@ -11,3 +11,4 @@ To get involved with development, clone the repository to your local IDE and per
 
 ## Contact
 The foodmanager project was started and is currently run by Christoph Krammer <chris@twotigers.de>.
+Hello
