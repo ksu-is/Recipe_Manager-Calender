@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>MyPlate Calculator</title>
+    <script type="text/javascript">
+  	 function enter()
+        {
+            //Obtain user inputs
+	    var vegetables = Number(document.getElementById("vegetables").value);
+       	    var fruit = Number(document.getElementById("fruit").value);
+            var grains = Number(document.getElementById("grains").value);
+            var protien = Number(document.getElementById("protiens").value);
+            var dairy = Number(document.getElementById("dairy").value);
+
+
+            //Calculate MyPlate
+            var vegplate = vegetables / 2.5;
+            var fruplate = fruit / 2;
+            var graplate = grains / 6;
+            var proplate = protien / 5.5;
+            var darplate = dairy / 3;
+
+            document.getElementById("outputveg").innerText = (vegplate * 100)
+            document.getElementById("outputfru").innerText = (fruplate * 100)
+            document.getElementById("outputgra").innerText = (graplate * 100)     
+            document.getElementById("outputpro").innerText = (proplate * 100)
+            document.getElementById("outputdar").innerText = (darplate * 100)
+
+}
+    </script>
+</head>
+
+<body>
+    <style>
+        body {background-image: url(https://images.unsplash.com/photo-1637434659088-cec7b7ea8646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);}
+        </style> 
+
+    <h1 style="color:chartreuse">MyPlate Calculator</h1>
+    <h3 style="color:chartreuse"> Determine how much of the daily reccomneded amounts your meal contains, for a 2000 calorie diet.</h3> 
+    <p style="color:chartreuse">How many cups of vegetables does your meal contain? <input type="text" id="vegetables"/>
+    </p>
+    <p style="color:chartreuse">How many cups of fruit does your meal contain? <input type="text" id="fruit"/>
+    </p>
+    <p style="color:chartreuse">How many ounces of grains does your meal contain? <input type="text" id="grains"/>
+    </p>
+    <p style="color:chartreuse">How many ounces of protien does your meal contain? <input type="text" id="protiens"/>
+    </p>
+    <p style="color:chartreuse">How many cups of dairy does your meal contain? <input type="text" id="dairy"/>
+    </p>
+    
+ <input type="submit" value="enter" onclick="enter();">
+
+    <h1 style="color:chartreuse">Your Meal Contains: </h1>
+
+    <h2 style="color:chartreuse"><span id="outputveg">?</span> % of vegetables</h2> 
+    <h2 style="color:chartreuse"><span id="outputfru">?</span> % of fruit</h2> 
+    <h2 style="color:chartreuse"><span id="outputgra">?</span> % of grains</h2> 
+    <h2 style="color:chartreuse"><span id="outputpro">?</span> % of protien</h2> 
+    <h2 style="color:chartreuse"><span id="outputdar">?</span> % of dairy</h2> 
+    
+    <h2 style="color:chartreuse">...recomended for the daily amount.</h2>
+    
+
+</body>
