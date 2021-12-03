@@ -20,6 +20,7 @@ class Recipe(models.Model):
     name = models.CharField(max_length=250)
     source = models.ForeignKey(RecipeSource, blank=True, null=True, on_delete=models.SET_NULL)
     source_hint = models.CharField(max_length=50, blank=True)
+    ingredients = models.CharField(max_length=200, blank=True)
     
     def __str__(self):
         return self.name

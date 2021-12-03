@@ -1,14 +1,25 @@
 <h1>Calender: {{ calendar.name }}</h1>
 
+<style>
+    body {background-image: url(https://images.unsplash.com/photo-1637314697388-ffba61af4496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);}
+    </style> 
+
+
 <table>
     {% for day in entries %}
+
+
         <tr>
             <td>{{ day.date }}</td>
-            
-            <td>0 {{ day.0 }}</td>
-            <td>1 {{ day.1 }}</td>
-            <td>2 {{ day.2 }}</td>
+            <th>Breakfast:</th>
+            <td>{{ day.0 }}</td>
+            <th>Lunch:</th>
+            <td>{{ day.1 }}</td>
+            <th>Dinner:</th>
+            <td>{{ day.2 }}</td>
+
+
         </tr>
-    {% endfor %}
+        {% endfor %}
 </table>
 
