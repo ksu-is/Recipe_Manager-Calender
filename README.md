@@ -37,4 +37,12 @@ We are looking forward to building upon RedTiger26's foodmanager project in Prof
 
 11/29/2021 -Added Myplate calculator in HTML format
 
-12/2/2022 - Updated interface of planner pages
+12/2/2021 - Updated interface of planner pages
+
+12/3/2021 - Added Ingredients column to recipe entry
+
+Goals before presentation next week:
+- Create recipe page to display recipes
+- Create calorie calculator to add to myplate calculator
+
+
