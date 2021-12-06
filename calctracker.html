@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="counter.css" rel="stylesheet" type="text/css">
+<script src="counter.js"></script>
+</head>
+<body>
+
+<header>FUN CALORIE TRACKER</header>
+
+<div class="main">
+<h1>Hello! Please select your food category to start your calorie tracker!</h1><hr>
+
+<div class="center">
+  <select id="mySelect" onchange="displayBelow();" >
+
+    <option name="Select the food category!"> Select the food category!</option>
+
+    <option name="Dairy" value="150"> Dairy</option>
+
+    <option name="Protein" value= "300"> Protein </option>
+
+    <option name="Grains" value= "375" > Grains</option>
+
+    <option name="Fruit" value= "60" > Fruit</option>
+
+    <option name="Vegetables" value= "40" > Vegetables </option> 
+
+	</select>
+     
+     <br> <br> <br>
+
+<div id="label1"></div>
+
+<div id="label2"></div>
+
+<div id="label3"></div>
+</div>
+
+<div class = "display">
+       <p>
+          Your calorie count is: 
+         <div id = "container">
+         <div id="container"></div>  
+       </div>
+	   </p>
+</div>
+
+
+
+</body>
+</html>
