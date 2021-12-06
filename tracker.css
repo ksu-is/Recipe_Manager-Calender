@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color:#F2FEFD;
+}
+
+header {
+	background-color:#f320a2;
+	color:#00726A;
+	font-size:3em;
+	text-align:center;
+	border-bottom:3px solid #00726A;
+	padding: 20px;
+	margin:20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight:400;
+}
+
+.main {
+	margin: 0 210px 0 210px;
+	padding: 1px 10px 20px 10px;
+	background-color:#f32066;
+	color:#00726A;
+	font-size:1.25em;
+}
+
+h1 {
+	font-weight:400;
+	text-align:center;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.display{
+  background-color:#F2FEFD;
+  font-size:2em;
+  text-align:center;
+  border:3px solid #00726A;
+}
+.form{
+  font-size: 20px;
+  font-family: 'Amiri', serif;
+  color: #EAC386;
+  text-align: center;
+}
+
