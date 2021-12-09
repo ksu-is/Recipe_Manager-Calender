@@ -24,5 +24,6 @@ class CalendarView(generic.DetailView):
         # Call the base implementation first to get a context
         context = super(CalendarView, self).get_context_data(**kwargs)
         # Add in a QuerySet of all the books
-        context['entries'] = self.get_object().get_entries(datetime.today(), 8)
+        context['entries'] = self.get_object().get_entries(datetime.today(), 7)
+        #Change the number of days ahead the calendar displays
         return context

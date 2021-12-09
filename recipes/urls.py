@@ -1,3 +1,4 @@
+#Created to get recipes page running
 """foodmanager URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -15,13 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from recipes.urls import path
+from recipes import index
 
 from . import index
 
 urlpatterns = [
-    path('planner/', include('planner.urls')),    
-    path('admin/', admin.site.urls),
-    path('myplate/',index.myplate),
+    #path('planner/', include('planner.urls')),    
+    #path('admin/', admin.site.urls),
+    #path('myplate/',index.myplate)
     path('meals/',index.recipes)
 ]

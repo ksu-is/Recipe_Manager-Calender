@@ -56,7 +56,7 @@ ROOT_URLCONF = 'foodmanager.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\blair\Documents\GitHub\Recipe-Manager\foodmanager\templates'],
+        'DIRS': [r'C:\Users\blair\Documents\GitHub\Recipe_Manager-Calender\recipes'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,7 +68,7 @@ TEMPLATES = [
         },
     },
 ]
-
+#r'C:\Users\blair\Documents\GitHub\Recipe-Manager\foodmanager\templates'
 WSGI_APPLICATION = 'foodmanager.wsgi.application'
 
 
