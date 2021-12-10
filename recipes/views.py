@@ -4,8 +4,8 @@ from .models import Recipe
 from django.views import generic
 
 
-def recipes(request):
-    return HttpResponse(request,'meals.html')
+#def recipes(request):
+    #return HttpResponse(request,'meals.html')
 
 
 

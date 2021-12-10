@@ -23,5 +23,6 @@ urlpatterns = [
     path('planner/', include('planner.urls')),    
     path('admin/', admin.site.urls),
     path('myplate/',index.myplate),
+    # added to create recipes page
     path('meals/',index.recipes)
 ]
