@@ -3,7 +3,10 @@
 
 
 <style>
-body {background-image: url(https://images.unsplash.com/photo-1637314697388-ffba61af4496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);}
+body {background-image: url(https://images.unsplash.com/photo-1637314697388-ffba61af4496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
    </style> 
 
@@ -16,13 +19,13 @@ body {background-image: url(https://images.unsplash.com/photo-1637314697388-ffba
 
 
         <tr>
-            <td>{{ day.date }}</td>
-            <th>Breakfast:</th>
-            <td>{{ day.0 }}</td>
-            <th>Lunch:</th>
-            <td>{{ day.1 }}</td>
-            <th>Dinner:</th>
-            <td>{{ day.2 }}</td>
+            <td style="color:white">{{ day.date }}</td>
+            <th style="color:white">Breakfast:</th>
+            <td style="color:white">{{ day.0 }}</td>
+            <th style="color:white">Lunch:</th>
+            <td style="color:white">{{ day.1 }}</td>
+            <th style="color:white">Dinner:</th>
+            <td style="color:white">{{ day.2 }}</td>
 
 
         </tr>
